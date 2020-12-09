@@ -11,7 +11,7 @@ page 50101 "Television Show List"
     {
         area(Content)
         {
-            group(Group)
+            repeater(Group)
             {
                 field(Code; code)
                 {
@@ -27,6 +27,10 @@ page 50101 "Television Show List"
                 {
                     ApplicationArea = All;
 
+                }
+                field("Created By"; "Created By")
+                {
+                    ApplicationArea = All;
                 }
             }
         }

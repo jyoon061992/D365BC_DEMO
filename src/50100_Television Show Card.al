@@ -25,6 +25,19 @@ page 50100 "Television Show Card"
                     ApplicationArea = All;
 
                 }
+                field(Status; Status)
+                {
+                    ApplicationArea = All;
+
+                }
+                field("Frist Aired"; "First Aired")
+                {
+                    ApplicationArea = All;
+                }
+                field("Last Aired"; "Last Aired")
+                {
+                    ApplicationArea = All;
+                }
             }
         }
     }
